@@ -6,3 +6,5 @@ print("ok")
 #if you want to print a given line n number of times then use following syntax
 
 print(10*"\nhello")
+
+print("hellow vishal")
