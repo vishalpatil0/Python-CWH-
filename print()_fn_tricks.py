@@ -7,4 +7,3 @@ print("ok")
 
 print(10*"\nhello")
 
-print("hellow vishal")
