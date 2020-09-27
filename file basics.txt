@@ -1,0 +1,10 @@
+file basics
+'r' == open file for reading                                    default mode
+'w' == open file for writing                                   create new file and if the exists already then empty it 
+'x' (exclusive creation) == create file if not exists
+'a' (append) == add more content to the end of the file  || don't empty the existing file
+'t' == text mode (access data in the form of the string)        default mode
+'b' == binary mode
++   = read and write
+
+
