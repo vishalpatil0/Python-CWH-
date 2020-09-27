@@ -22,3 +22,13 @@ except Exception as e:
 print("fnction clsig")
 
 print(l)
+
+function within a function 
+
+def vishal():
+    def namrata():
+        print("namu")
+    print("vishu")
+    namrata()
+
+vishal();   
