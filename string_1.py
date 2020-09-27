@@ -43,3 +43,29 @@ print(string_1.lower()) #convert inot lower case
 print(string_1.find('this')) #find the starting index of the provided word in string 
 
 print(string_1.replace('hello','namaste'))
+
+
+str1=input("Enter the string here")
+print("centre allignment;",str1.center(20));
+print("centre allignment;",str1.ljust(20));
+print("centre allignment;",str1.rjust(20));
+
+name1="vishal";
+for x in name1:
+	print(x)
+print(str1.title()); 
+print(str1.swapcase());	 #change the case of every character
+
+print("alphanumeric==",str1.isalnum())
+print("digit==",str1.isdigit())
+print("alphabet==",str1.isalpha())
+print("lower case==",str1.islower())
+print("upper case==",str1.isupper())
+
+print(str1.endswith("al"))
+print(str1.startswith("vi"))
+str1='namu pagal zali'
+print(str1.split()) # if there is space in string then the word divided by space get into list as different element
+
+print(str1)
+print('+'.join(str1.split()))  #add + every element in string

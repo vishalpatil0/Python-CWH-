@@ -1,13 +1,10 @@
 #string formatting
-a="vishal is  poor boy"
+a="vishal is a poor boy"
 
 b="so vishal is what?%s"%a
 
 print(b)
-
-d=3
-
-e="vishal"
+d,e=('vishal',3)
 
 c="so %s and %s"%(d,e)
 print(c)

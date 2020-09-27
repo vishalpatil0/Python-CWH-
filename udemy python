@@ -1,0 +1,74 @@
+python udemy :
+
+section 1 : introduction 
+
+1) introduction:
+		a)what is python?
+				1) it is high level programming language
+				2) it is object oriented language
+				3) interpreted language
+				4) with high dynamic semantic
+				5) it is also known as glue language
+		
+		b) features of python:
+					1) easy to understand and code
+					2) readable
+					3) cross platform support
+					4) support exception handling
+					5) support large standard library
+					6) open source language
+					7) automatic memory management
+	
+	        c) application of pythong
+	        			1) game developement
+	        			2) scripting e.g automatic mail response
+	        			3) machine learning e.g product recomdation in flipkart
+	        			4) data analysis
+	        			5) web developement
+	        	
+	        d) advantage of python :
+	        			1) presence of third party moudle
+	        			2) open source and community developement
+	        			3) extensive libraray support
+	        			4) learning ease and support
+	        			5) user friendly data structure
+	        		        6) productiviy and speed
+	       e) why python :
+	       				1) large set of libraries and easy to understand 
+	       				2) machine learning libraries in python have more contents than any other langauge 
+	       				3) web developement have great frameworks
+	       				4) simplicity synatx are easy
+	       				5) huge cumminity support 
+	       				6) 
+	       				
+	     
+	     
+	     input() :  it is a function to take input from user
+	     			e.g.:  name=input("enter name");  	
+	     			
+	     			
+	     			
+2)  in pythong we can start variable name with underscore e.g:   _name;
+	 
+	  cant start with digit
+	  
+	  not with @
+	  python support negative indexing
+	     						 		   
+
+3) identity operator compares the memory location of two operators
+   is :  if two variable points to the same object
+   is not: if two variables points to the different objects
+   
+4)  membership oparator 
+	in : if given is in sequence
+	
+	
+	dictionary is collectionn of unordered and mutalbe items and they have keys and values format
+	
+	my_dict={1:"value","key":"value"}
+	
+	we can use "get()" or "[]" to retrive elements
+	not in	    : if given value iss not in sequence
+	
+5) 				popitem() methon remove last key value pair in the dictionary		 		     

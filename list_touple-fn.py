@@ -4,6 +4,11 @@ print(list1)
 print(list1[2])
 print(list1[ : :2])
 
+list1=[1,2,3,4,5,6,7]
+
+list1[2:2]=[22,33]  #this insert [22,33] at 2nd index
+print(list1)
+
 list2=[14,28,13,4] 
 list2.sort() #sort 
 list2.reverse() #reverse the code
@@ -77,3 +82,9 @@ list3=[1,2,3,4]
 tupled=tuple(list3)
 
 print(tupled)
+
+odd=[x for x in range(10) if x%2==1]  #create list with odd numbers
+print(odd)
+list1=[1,2,3,4,5,6]
+
+print( 3 in list1)
