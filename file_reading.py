@@ -32,3 +32,4 @@ print(f.readline())   # this statement does this same it only prints the second 
 # Note  readlines() function print all the file as a list
 
 print(f.readlines()) # as you can see it prints complete file as a list with "\n" except for last line 
+f.close()

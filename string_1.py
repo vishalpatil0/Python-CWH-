@@ -64,8 +64,8 @@ print("upper case==",str1.isupper())
 
 print(str1.endswith("al"))
 print(str1.startswith("vi"))
-str1='namu pagal zali'
-print(str1.split()) # if there is space in string then the word divided by space get into list as different element
+str1='namu/pagal/zali'
+print(str1.split('/')) # if there is space in string then the word divided by space get into list as different element
 
 print(str1)
 print('+'.join(str1.split()))  #add + every element in string

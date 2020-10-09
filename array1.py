@@ -11,7 +11,7 @@ print(arr)
 
 # Using above first method to create a 
 # 2D array 
-rows, cols = (2, 5) 
+rows, cols = (0,0) 
 arr = [[0]*cols]*rows 
 print(arr) 
 
@@ -35,12 +35,15 @@ print(arr)
 for row in arr:
     print(row)
 
-for i in range(0,2):
-    for j in range(0,3):
-        arr[i][j]=int(input("enter the input"))
+rows, cols = (0,0) 
+arr1 = [[0]*cols]*rows 
+print(arr1) 
+for i in range(2):
+    for j in range(3):
+        arr1[i][j]=int(input("enter the input"))
         
 
 
 
 
-print(arr)
+print(arr1)

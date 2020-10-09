@@ -17,7 +17,7 @@ def read1():
             for u in f:
                 print(u,end="")
     else:
-        print("file not present so please eneter the data first")
+        print("file not present so please enter the data first")
 
 while(-4):    
     ip1=int(input("Press 1 to enter the data\nPress 2 to read the data\n="))

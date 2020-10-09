@@ -10,8 +10,6 @@ print("LETS PLAY...STONE,PAPER,SIRROR")
 
 opt = ["s", "p", "r"]
 
-
-
 for i in range(3):
 
     play_count += 1

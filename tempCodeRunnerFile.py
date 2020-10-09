@@ -1,2 +1,1 @@
-
-print("alphanumeric==",str1.isalnum())
+random.randint(0,7)
