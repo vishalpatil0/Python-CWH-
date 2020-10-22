@@ -8,3 +8,4 @@ print("ok")
 print(10*"\nhello") #it only works on string
 
 print(r"hello \ beautiful") #r is used here to enable us to use back slash
+

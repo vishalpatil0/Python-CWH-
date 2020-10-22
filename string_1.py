@@ -30,7 +30,7 @@ print(string_1[ : :-1]) #by writing slicing value as -1 we can reverse the strin
 
 print(string_1.isalnum()) #check if the string is alpha(no spaces) numberic 
 
-print(string_1.endswith("1")) #chekc if the string ends with giver characters provided in endswith() function
+print(string_1.endswith("1")) #check if the string ends with giver characters provided in endswith() function
 
 print(string_1.count('o')) #count the number times given character in count() function appeared in the string
 
@@ -64,7 +64,7 @@ print("upper case==",str1.isupper())
 
 print(str1.endswith("al"))
 print(str1.startswith("vi"))
-str1='namu/pagal/zali'
+str1='vishal/gajanan/patil'
 print(str1.split('/')) # if there is space in string then the word divided by space get into list as different element
 
 print(str1)
