@@ -34,7 +34,7 @@ print(string_1.endswith("1")) #check if the string ends with giver characters pr
 
 print(string_1.count('o')) #count the number times given character in count() function appeared in the string
 
-print(string_1.capitalize()) #capitalize() function capitalize the first charater of the string
+print(string_1.capitalize()) #capitalize() function capitalize the first charater only for the first word int the string
 
 print(string_1.upper()) #convert into upper case
 
@@ -53,7 +53,7 @@ print("centre allignment;",str1.rjust(20));
 name1="vishal";
 for x in name1:
 	print(x)
-print(str1.title()); 
+print(str1.title()); #capitalize first letter of every word
 print(str1.swapcase());	 #change the case of every character
 
 print("alphanumeric==",str1.isalnum())

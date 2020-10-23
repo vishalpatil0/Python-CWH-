@@ -14,7 +14,7 @@ def somew(n):
 if __name__ == "__main__":
     print(somew(2))
     print("calling again")
-    system('clear')
+    # system('clear')
     input()
     print(somew(2))
     print("done second time")

@@ -4,8 +4,8 @@ def gen(n):
 
 
 print(gen(3))   
-h="vishal"
-g=gen(h)
-print(g.__next__())
-print(g.__next__())
-print(g.__next__())
+# h="vishal"
+# g=gen(h)
+# print(g.__next__())
+# print(g.__next__())
+# print(g.__next__())

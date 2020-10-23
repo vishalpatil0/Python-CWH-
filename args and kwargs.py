@@ -9,6 +9,7 @@
 
 
 def listaccept(gh):
+    print(type(gh))
     for i in gh.items():
         print(i)
 

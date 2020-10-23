@@ -3,7 +3,7 @@ import os
 def gettime():
     return datetime.datetime.now()
 
-def write1(a):
+def write1(a):1
     if(os.path.exists("student-data1.txt")):
         with open("student-data1.txt",'a') as f:
             f.write(str([str(gettime())])+":"+a+"\n")

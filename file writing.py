@@ -6,13 +6,13 @@ NOTE==
           
 """
 f=open("text file2.txt","w")             #we open (or create if not already present even if it already present it will replace the content with empty file) new file here with write mode means new file get created 
-f.write("namu ani vishu chaddi buddy ahe")
+f.write("is this really a real world?")
 
 f=open("text file3.txt","a")     # we opened the file here with append mode means we can add content at the end of the file(if there is any existing file it don't get truncated) it also create file if not already present
-f.write("\nvishal ek maha chutiya ahe")
+f.write("\nlearn form other person mistakes")
 
 
-a=f.write("\nvishal ek maha chutiya ahe") #f.write() function return the number of character it wrote 
+a=f.write("\nlearn form other person mistakes") #f.write() function return the number of character it wrote
 print(a)
 f.close()
 

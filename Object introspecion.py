@@ -27,7 +27,7 @@ vishu=Student("vishal","patil")
 
 print(id(vishu))
 
-print(id("me ahe ek pagal"))   #it gives the id of the object Every object have a special unique ID
+print(id("nobody is perfect"))   #it gives the id of the object Every object have a special unique ID
 
 print(dir(vishu)) #dir fn gives all the applicable method of object
 print(vishu.__class__)
