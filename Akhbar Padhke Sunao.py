@@ -13,5 +13,6 @@ if __name__ == '__main__':
     response = requests.get(url)
     text = response.text
     my_json = json.loads(text)
+    print(my_json['articles'])
     for i in range(0, 11):
         speak(my_json['articles'][i]['title'])

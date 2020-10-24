@@ -1,0 +1,6 @@
+setup.py
+namu/__init__.py
+namu.egg-info/PKG-INFO
+namu.egg-info/SOURCES.txt
+namu.egg-info/dependency_links.txt
+namu.egg-info/top_level.txt
