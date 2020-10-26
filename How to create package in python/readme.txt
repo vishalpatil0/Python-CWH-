@@ -12,5 +12,5 @@
 
 3)	Third run setup.y like = python setup.py sdist bdist_wheel  (Note: make sure you have wheel installed)
 
-4)	Fourth there will be to folder created by above command (dist,build) go to dist folder and install the package pip install package_name
+4)	Fourth there will be two folder created by above command (dist,build) go to dist folder and install the package pip install package_name
 

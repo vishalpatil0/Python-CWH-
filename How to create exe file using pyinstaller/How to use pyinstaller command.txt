@@ -1,0 +1,6 @@
+1) Use pyinstaller filename
+		then your .exe file will be created in your dist folder alongside with many file.
+
+2) use pyinstaller --onefile filename
+
+		this only create one file in dist folder
