@@ -6,7 +6,10 @@ Make sure you have cx_Freeze installed
 			setup(name="vishal",
    			   version="0.1",
    			   description="ok",
-      			   executables=[Executable(r"stone-paper-scisor1.py")]
+      			   executables=[Executable(r"stone-paper-scisor1.py",
+		    icon="path",
+		    shortcutName="name",
+		    shortcutDir="DesktopFolder")]
       			)
 
 	Give the proper file path of your source code in Executable()
@@ -14,5 +17,9 @@ Make sure you have cx_Freeze installed
 2) Run the setup.py file 
 		
 		python setup.py build 
+	
+		This command crete a folder with exe files with many other file
 
- 
+or python setup.py bdist_msi    Note: here msi is for windows and dmg is for mac
+
+and this command creates a installer (msi) 
