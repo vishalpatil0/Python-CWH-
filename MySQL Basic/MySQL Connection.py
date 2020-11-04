@@ -1,6 +1,6 @@
 import mysql.connector
 
-mydb=mysql.connector.connect(host="localhost",user="root",password="vishu",database="learning")
+mydb=mysql.connector.connect(host="127.0.0.1",user="root",password="vishu",database="learning")
 """ if you don't mention database name here ^  then you can use it as follow:
     mydb=mysql.connector.connect(host="localhost",user="root",password="vishu")
     mycursor.execute("use learning")
