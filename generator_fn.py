@@ -3,9 +3,9 @@ def gen(n):
         yield i #yield method convert any normal function into generator
 
 
-print(gen(3))   
-# h="vishal"
-# g=gen(h)
+# print(gen(3))   
+h="vishal"
+g=gen(h)
 # print(g.__next__())
 # print(g.__next__())
 # print(g.__next__())
