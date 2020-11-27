@@ -1,8 +1,8 @@
 from tkinter import *
-from PIL import Image, ImageTk 
+from PIL import Image, ImageTk
 
 root = Tk()
-root.title("My Frist Pro")
+root.title("My Frist Pro") 
 root.geometry("1110x850")
 root.minsize(1110, 850)
 
@@ -21,13 +21,13 @@ T = Label(text='''Muzaffarpur is a city located in Muzaffarpur district in the T
 T.place(x=50, y=100)
 # image
 photo = PhotoImage(file="Capture.png")
-P = Label(image=photo)
+P = Label(image=photo)  
 P.place(x=650, y=100)
 
 # Right Text-2
 T2 = Label(text='''Muzaffarpur is the lychee bowl of India.According to the Union agriculture ministry,
                    300,000 metric tonne of lychees were produced from 32,000 hectare under cultivation in Bhar in 2017.
-                   The children showed symptoms of acute encephalitis syndrome (AES), 
+                   The children showed symptoms of acute encephalitis syndrome (AES),
                    a neurological illness that involves inflammation of the brain''', bg="red", fg="white", padx=5, pady=5)
 T2.place(x=650, y=200)
 # image
@@ -36,7 +36,7 @@ P1 = Label(image=photo1)
 P1.place(x=10, y=200)
 
 # Left Text-3
-T3 = Label(text='''This is a very famous nd popular temple in the North bihar.It is very neat nd clean. It's looking very 
+T3 = Label(text='''This is a very famous nd popular temple in the North bihar.It is very neat nd clean. It's looking very
                             beautiful. In Navratri temple is face very crowd.This is in front of Lic office.''', bg="red", fg="white", padx=5, pady=5)
 T3.place(x=50, y=450)
 # image

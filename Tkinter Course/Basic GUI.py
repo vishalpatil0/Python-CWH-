@@ -1,7 +1,7 @@
 from tkinter import *           #importing all classes and methods from tkinter package
 
 
-root=Tk()                       #creating instance of TK() class it aslo creates basic gui 
+root=Tk()                       #creating instance of Tk() class it also creates basic gui
 
 #gui logic here
 
