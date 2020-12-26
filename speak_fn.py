@@ -4,7 +4,7 @@ engine = pyttsx3.init('sapi5')
 voices= engine.getProperty('voices') #getting details of current voice
 engine.setProperty('voice', voices[1].id)
 # print(voices[].id)
-# print(voices)
+# print(voices[1])
 """ RATE"""
 rate = engine.getProperty('rate')   # getting details of current speaking rate
 # print(rate)
@@ -24,4 +24,4 @@ def speak(audio):
     engine.stop()
 
 if __name__=="__main__" :
-    speak("\nCode With Harry")
+    speak("\nvishal sushil namrata")

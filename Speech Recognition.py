@@ -16,8 +16,10 @@ def recognize():
     except Exception as e:
         # print(e)
         print("Say that again please...")
-        return 'None'
+        return None
     return query 
 
 if __name__=="__main__":
-    recognize()
+    vishal=recognize()
+
+    print(vishal)
