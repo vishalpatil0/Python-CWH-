@@ -1,18 +1,28 @@
-#recusrion 
+#factorial logic
 #5=5!=5*4*3*2*1
 
-def rec(n):
-    if (n==1) and (n==0):
-        return 1
-    else:
-        return (n*rec(n-1))
+#factorial of two numbers using recursion
 
-n=int(input("enter number="))
-print("recursion of number is =",rec(n))
+# def fact(n):
+#     if (n==0 or n==1):
+#         return 1
+#     else:
+#         return n*fact(n-1)
+
+# num1=int(input("Enter a number"))
+# print("Factorial of ",num1," is = ",fact(num1))
 
 
-# fac=1
-# for i in range(n):
-#     fac=fac*(i+1)
-# return fac
-        
+#Factorial of a number using iteration
+
+
+num1=int(input("Enter a number"))
+
+fact=1
+if (num1==0 or num1==1):
+    print("FActorail is ",1)
+else:
+    for i in range(num1):
+        fact*=i+1
+    print("Factorial is ", fact)
+    

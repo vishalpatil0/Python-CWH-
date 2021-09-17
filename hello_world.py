@@ -1,2 +1,1 @@
-print("hello world this is vishal patil")
-
+print("hello world")

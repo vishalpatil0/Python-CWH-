@@ -6,12 +6,12 @@ print(list1[ : :2])
 
 list1=[1,2,3,4,5,6,7] #this reassign the list by completely removing old elements and inserting new one
 
-list1[2]=[22,33]  #this insert [22,33] at 2nd index
+list1[2]=[22,33]  #this insert [22,33] at 2nd index as a nexted list
 print(list1)
 
 list2=[14,28,13,4]
-list2.sort() #sort
-list2.reverse() #reverse the code
+list2.sort() #permenant sorting
+list2.reverse() #permannet reverse the code
 print(list2)
 
 print("Length of list2 is =",len(list2)) #length of string
