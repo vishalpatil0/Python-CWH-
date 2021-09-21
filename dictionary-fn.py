@@ -9,10 +9,10 @@ d1={}
 
 print(type(d1))
 
-d2={"vishal":"patil","namrata":"badge","divya":{"a":"apple","b":"bananan","c":{"ab":"aaba","tmt":"tommato"}}} #dictionary within a dictionary withia a dicionary
+d2={"vishal":"patil","namrata":"badge","kavita":{"a":"apple","b":"bananan","c":{"ab":"aaba","tmt":"tommato"}}} #dictionary within a dictionary withia a dicionary
 
-print(d2["divya"]) #put the dictionary of divya
-print(d2["divya"]["c"]["tmt"]) #put the dictionary of divya and the value of c
+print(d2["kavita"]) #put the dictionary of kavita
+print(d2["kavita"]["c"]["tmt"]) #put the dictionary of kavita and the value of c
 # print(d2[2]) this is not allowed in dictionary bcoz we it only take keys in this form 
 d2={"anjali":"munde"} #we alreay created the dictionary with d2 name so this statement reinitialize the dictiory form scratch
 d2["shweta"]="phengale" #adding entry in already created dictionary k
@@ -20,7 +20,7 @@ del d2["shweta"] #delete the entry in the dictionary
 print(d2)
 
 
-d2={"vishal":"patil","namrata":"badge","divya":{"a":"apple","b":"bananan","c":"carrot"}} #dictionary within a dictionary
+d2={"vishal":"patil","namrata":"badge","kavita":{"a":"apple","b":"bananan","c":"carrot"}} #dictionary within a dictionary
 print("ithun bagh")
 print(list(sorted(d2.keys())))  # list convert dictionary into list and sorted fn() sort it out
 

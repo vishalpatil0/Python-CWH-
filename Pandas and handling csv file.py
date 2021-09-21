@@ -5,7 +5,13 @@ scores=pd.read_csv("CSV File\scores.csv")
 # print(scores)
 # print(scores.shape) #tells you the diemesion
 # print(scores.tail)
-print(scores["Name"])
+# print(scores["Name"])
+
+# print(scores[scores["Name"]=="Nisha"]['Gender'])
+
+# print(scores['Name'])
+
+print(scores.groupby("Gender").groups)
 
 
 
